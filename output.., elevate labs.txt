@@ -1,0 +1,214 @@
+ empid  | age | gender |       department       |        jobrole        | monthlyincome | attrition 
+--------+-----+--------+------------------------+-----------------------+---------------+-----------
+ RM297  |  18 | Male   | Research & Development | Laboratory Technician |          1420 | Yes
+ RM302  |  18 | Female | Sales                  | Sales Representative  |          1200 | No
+ RM458  |  18 | Male   | Sales                  | Sales Representative  |          1878 | Yes
+ RM728  |  18 | Male   | Research & Development | Research Scientist    |          1051 | No
+ RM829  |  18 | Male   | Research & Development | Laboratory Technician |          1904 | Yes
+ RM973  |  18 | Female | Research & Development | Laboratory Technician |          1611 | No
+ RM1154 |  18 | Female | Sales                  | Sales Representative  |          1569 | Yes
+ RM1312 |  18 | Female | Research & Development | Research Scientist    |          1514 | No
+ RM128  |  19 | Male   | Sales                  | Sales Representative  |          1675 | Yes
+ RM150  |  19 | Female | Research & Development | Laboratory Technician |          1483 | No
+(10 rows)
+
+ empid  | age | gender |       department       |        jobrole        | monthlyincome | attrition 
+--------+-----+--------+------------------------+-----------------------+---------------+-----------
+ RM297  |  18 | Male   | Research & Development | Laboratory Technician |          1420 | Yes
+ RM302  |  18 | Female | Sales                  | Sales Representative  |          1200 | No
+ RM458  |  18 | Male   | Sales                  | Sales Representative  |          1878 | Yes
+ RM728  |  18 | Male   | Research & Development | Research Scientist    |          1051 | No
+ RM829  |  18 | Male   | Research & Development | Laboratory Technician |          1904 | Yes
+ RM973  |  18 | Female | Research & Development | Laboratory Technician |          1611 | No
+ RM1154 |  18 | Female | Sales                  | Sales Representative  |          1569 | Yes
+ RM1312 |  18 | Female | Research & Development | Research Scientist    |          1514 | No
+ RM128  |  19 | Male   | Sales                  | Sales Representative  |          1675 | Yes
+ RM150  |  19 | Female | Research & Development | Laboratory Technician |          1483 | No
+(10 rows)
+
+ empid | age |       department       |        jobrole         | monthlyincome 
+-------+-----+------------------------+------------------------+---------------
+ RM013 |  31 | Research & Development | Research Scientist     |          2911
+ RM059 |  31 | Research & Development | Laboratory Technician  |          5915
+ RM073 |  31 | Research & Development | Research Scientist     |          2501
+ RM076 |  31 | Research & Development | Manufacturing Director |          4424
+ RM125 |  31 | Sales                  | Sales Executive        |          6172
+ RM133 |  31 | Sales                  | Sales Executive        |          4559
+ RM181 |  31 | Research & Development | Research Scientist     |          3929
+ RM225 |  31 | Research & Development | Manufacturing Director |          4345
+ RM246 |  31 | Research & Development | Research Director      |         13675
+ RM260 |  31 | Research & Development | Laboratory Technician  |          3479
+(10 rows)
+
+ empid  |      jobrole      |       department       | monthlyincome 
+--------+-------------------+------------------------+---------------
+ RM191  | Manager           | Research & Development |         19999
+ RM747  | Research Director | Research & Development |         19973
+ RM852  | Manager           | Research & Development |         19943
+ RM166  | Manager           | Research & Development |         19926
+ RM569  | Manager           | Research & Development |         19859
+ RM919  | Manager           | Sales                  |         19847
+ RM750  | Manager           | Sales                  |         19845
+ RM1243 | Manager           | Sales                  |         19833
+ RM899  | Research Director | Research & Development |         19740
+ RM957  | Manager           | Human Resources        |         19717
+(10 rows)
+
+       department       | totalemployees 
+------------------------+----------------
+ Human Resources        |             63
+ Research & Development |            967
+ Sales                  |            450
+(3 rows)
+
+ empid  |       department       |   manager    
+--------+------------------------+--------------
+ RM297  | Research & Development | Anita Sharma
+ RM302  | Sales                  | Ravi Kumar
+ RM458  | Sales                  | Ravi Kumar
+ RM728  | Research & Development | Anita Sharma
+ RM829  | Research & Development | Anita Sharma
+ RM973  | Research & Development | Anita Sharma
+ RM1154 | Sales                  | Ravi Kumar
+ RM1312 | Research & Development | Anita Sharma
+ RM128  | Sales                  | Ravi Kumar
+ RM150  | Research & Development | Anita Sharma
+(10 rows)
+
+ empid  |       department       |   manager    
+--------+------------------------+--------------
+ RM297  | Research & Development | Anita Sharma
+ RM302  | Sales                  | Ravi Kumar
+ RM458  | Sales                  | Ravi Kumar
+ RM728  | Research & Development | Anita Sharma
+ RM829  | Research & Development | Anita Sharma
+ RM973  | Research & Development | Anita Sharma
+ RM1154 | Sales                  | Ravi Kumar
+ RM1312 | Research & Development | Anita Sharma
+ RM128  | Sales                  | Ravi Kumar
+ RM150  | Research & Development | Anita Sharma
+(10 rows)
+
+ empid  |   department    |   manager   
+--------+-----------------+-------------
+ RM423  | Human Resources | Priya Singh
+ RM1223 | Human Resources | Priya Singh
+ RM1246 | Human Resources | Priya Singh
+ RM1412 | Human Resources | Priya Singh
+ RM135  | Human Resources | Priya Singh
+ RM454  | Human Resources | Priya Singh
+ RM1298 | Human Resources | Priya Singh
+ RM1380 | Human Resources | Priya Singh
+ RM630  | Human Resources | Priya Singh
+ RM1324 | Human Resources | Priya Singh
+(10 rows)
+
+ empid |       department       | monthlyincome 
+-------+------------------------+---------------
+ RM139 | Sales                  |          8639
+ RM044 | Sales                  |          8726
+ RM213 | Sales                  |          9981
+ RM531 | Research & Development |          7412
+ RM538 | Research & Development |          8793
+ RM555 | Research & Development |          6811
+ RM611 | Research & Development |         12808
+ RM781 | Research & Development |          8722
+ RM810 | Research & Development |          7655
+ RM945 | Research & Development |          6674
+(10 rows)
+
+ empid  | department | monthlyincome 
+--------+------------+---------------
+ RM302  | Sales      |          1200
+ RM458  | Sales      |          1878
+ RM1154 | Sales      |          1569
+ RM128  | Sales      |          1675
+ RM172  | Sales      |          2325
+ RM689  | Sales      |          2121
+ RM663  | Sales      |          2044
+ RM777  | Sales      |          2323
+ RM877  | Sales      |          2678
+ RM1179 | Sales      |          2783
+(10 rows)
+
+ totalsalary 
+-------------
+     9627379
+(1 row)
+
+     averagesalary     
+-----------------------
+ 6504.9858108108108108
+(1 row)
+
+ totalemployees 
+----------------
+           1480
+(1 row)
+
+ highestsalary 
+---------------
+         19999
+(1 row)
+
+ lowestsalary 
+--------------
+         1009
+(1 row)
+
+       department       | monthlyincome 
+------------------------+---------------
+ Research & Development |          1420
+ Sales                  |          1200
+ Sales                  |          1878
+ Research & Development |          1051
+ Research & Development |          1904
+ Research & Development |          1611
+ Sales                  |          1569
+ Research & Development |          1514
+ Sales                  |          1675
+ Research & Development |          1483
+(10 rows)
+
+CREATE VIEW
+ empid  |       department       | attrition 
+--------+------------------------+-----------
+ RM297  | Research & Development | Yes
+ RM302  | Sales                  | No
+ RM458  | Sales                  | Yes
+ RM728  | Research & Development | No
+ RM829  | Research & Development | Yes
+ RM973  | Research & Development | No
+ RM1154 | Sales                  | Yes
+ RM1312 | Research & Development | No
+ RM128  | Sales                  | Yes
+ RM150  | Research & Development | No
+(10 rows)
+
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+                                                     QUERY PLAN                                                      
+---------------------------------------------------------------------------------------------------------------------
+ Limit  (cost=0.00..1.48 rows=10 width=27) (actual time=0.019..0.023 rows=10.00 loops=1)
+   Buffers: shared hit=2
+   ->  Seq Scan on employee_data  (cost=0.00..66.50 rows=450 width=27) (actual time=0.017..0.021 rows=10.00 loops=1)
+         Filter: ((department)::text = 'Sales'::text)
+         Rows Removed by Filter: 17
+         Buffers: shared hit=2
+ Planning:
+   Buffers: shared hit=37 read=3
+ Planning Time: 3.766 ms
+ Execution Time: 0.040 ms
+(10 rows)
+
+DROP VIEW
+CREATE VIEW
+DROP VIEW
+CREATE VIEW
+DROP INDEX
+CREATE INDEX
+DROP INDEX
+CREATE INDEX
+DROP INDEX
+CREATE INDEX
